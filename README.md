@@ -1,2 +1,2 @@
 # Sky_Mystique
-Weather application using html,css,vannila js
+It is simple,responsive weather application website built in html,css,vannila js integrated with OpenWeatherMap-API
