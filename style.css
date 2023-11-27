@@ -74,14 +74,36 @@ form input[type="submit"]{
     min-height:40px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 820px){
     form{
         flex-direction:column;
     }
+    .container{
+        margin: 5% auto;
+        align-items: center;
+        width : 80%;
+        height: 90%;
+    }
     form input[type="text"]{  
         align-items:center;
-        width: 30%;
+        width: 60%;
         margin-top: 20px;
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .details >div{
+        padding: 5px;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        min-height: 25px;
     }
 }
